@@ -12,8 +12,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cors());
-app.use(logger);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec))
+app.use(logger); 
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use('/api/organization', organizationRouter);
 app.use('/api/item', itemRouter);
 app.use('/api/price', priceRouter);

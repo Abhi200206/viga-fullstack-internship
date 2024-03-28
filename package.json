@@ -9,7 +9,7 @@
     "build": "npm install && tsc -b"
   },
   "keywords": [],
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-typescript": "^7.24.1",
