@@ -14,6 +14,7 @@ Live Deployed backend link- https://viga-fullstack-internship.onrender.com/
 ## 2.postgresql setup locally
 1. the postgresql url is already present in the code for easy testing of project.
 2. if you want to test with your own postgresql url replace the the url in .env file with your postgresql connection url.
+3. if you want to see the tables in the database run "npx prisma studio".
 ## 3. To run Tests locally
 1. run "npm test" in the root folder to run the tests.
 
